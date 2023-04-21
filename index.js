@@ -10,7 +10,7 @@ async function pegaArquivo (caminhoArquivo){
         const resposta = await fs.promises.readFile(caminhoArquivo, encondig);
         console.log(resposta);}
 
-    catch(erro) {
+    catch(erro) { 
          trataErro(erro);
     }
 
