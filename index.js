@@ -30,5 +30,7 @@ function trataErro(erro){
 }
 
 
+// \[[^[\]]*?\]
+
 
 
