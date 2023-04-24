@@ -1,7 +1,6 @@
 import fs from 'fs';
 import chalk from 'chalk';
 
-pegaArquivo('./arquivos/texto.md');
 
 
 async function pegaArquivo (caminhoArquivo){
@@ -32,6 +31,7 @@ function extraiLinks(texto){
 
 }
 
+export default pegaArquivo;
 
 
 
