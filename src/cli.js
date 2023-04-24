@@ -1,6 +1,12 @@
+import chalk from "chalk";
 import pegaArquivo from "./index.js";
 
 
-
 const caminho = process.argv;  // process é um comando do node, argv (argumento, informação passada por linha de comando)
-pegaArquivo(caminho[2]); // retorna um array, informações referente aos 2 comandos
+
+async function processaTexto(caminho){
+    const resultado = await pegaArquivo(caminho[2]);
+    console.log(chalk.yellow('lista de links'), resultado);
+}
+
+processaTexto(caminho);

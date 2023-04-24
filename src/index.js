@@ -7,7 +7,7 @@ async function pegaArquivo (caminhoArquivo){
     try{
         const encondig = 'utf-8';
         const resposta = await fs.promises.readFile(caminhoArquivo, encondig);
-        console.log(extraiLinks(resposta));
+        return extraiLinks(resposta);
 
         }
 
@@ -26,7 +26,8 @@ function extraiLinks(texto){
     const regex = /\[([^[\]]*?)\]\((https?:\/\/[^\s?#.].[^\s]*)\)/gm; //para colocar o regex inserir dentro de /regex/
     const capturas = [...texto.matchAll(regex)];
     const resultados = capturas.map((e)=>({[e[1]]: e[2]})) //criando um objeto, que recebe um array como chave e outro array como resultado da chave
-    return resultados;
+    return resultados.length !== 0 ? resultados : 'não há links';
+    
 
 
 }
