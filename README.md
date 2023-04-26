@@ -31,7 +31,11 @@ npm install linkius -g
 ```
 linkius filename.md
 ```
-
+```
+var adicionar2 = function(numero) {
+ return numero + 2;
+}
+```
 
 </ol>
 
