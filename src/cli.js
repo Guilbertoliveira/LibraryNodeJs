@@ -1,6 +1,9 @@
+#!/usr/bin/env node
+
 import chalk from "chalk";
 import fs from "fs";
 import pegaArquivo from "./index.js";
+
 
 const caminho = process.argv;  // process é um comando do node, argv (argumento, informado pelo usuario passará no terminal), retorna um array com o caminho de todos os comandos 
 
@@ -8,6 +11,7 @@ processaTexto(caminho);
 
 async function processaTexto(argumentos){
 
+    
 
     try {
         fs.lstatSync(argumentos[2]) //tentando verificar o caminho, caso caminho não seja encontrado, será gerado um objeto erro
@@ -34,7 +38,10 @@ async function processaTexto(argumentos){
 }
 
 function imprimirTela(caminho, objeto){
-    console.log(chalk.yellow(`Arquivo referente ao: ${caminho}`));
-    console.log(objeto);
+
+        console.log(chalk.yellow(`Arquivo referente ao: ${caminho}`));
+        console.log(objeto);
+
+  
 }
 
