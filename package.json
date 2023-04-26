@@ -2,7 +2,7 @@
   "name": "linkius",
   "version": "1.0.0",
   "description": "Show on screen links of .md files",
-  "main": "./cli.js",
+  "main": ".src/cli.js",
   "type":"module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -21,7 +21,7 @@
     "chalk": "5.2.0"
   },
   "bin": {
-    "linkius": "./cli.js"
+    "linkius": ".src/cli.js"
   },
   "preferGlobal": true
 }

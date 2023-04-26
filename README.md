@@ -18,5 +18,12 @@
 </ol>
 
 <h2> Library native Node.Js </h2>
-<ol><li><a href="https://nodejs.org/api/fs.html#file-system">Library fs</a></li><ol>
+<ol><li><a href="https://nodejs.org/api/fs.html#file-system">Library fs</a></li></ol>
+
+<h2> How to install my library </h2>
+<ol>
+<li><p>To install the library you need to have Node.js installed</p></li>
+<li><p></p></li>
+
+</ol>
 
