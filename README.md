@@ -1,7 +1,8 @@
-<h1>LibraryNodeJs</h1>
+<div align="center">
+<h1>LibraryNodeJs</h1></div>
 
 <h2>:hammer:Project Status:hammer:</h2>
-<p>in development</p>
+<p>Finished library</p>
 
 <h2>Project description</h2>
 <p>Project to learn how to create a library via Node.js</p>
@@ -24,18 +25,16 @@
 <ol>
 <li><p>To install the library you need to have Node.js installed</p></li>
 <li><p>After initializing your project along with node.js, run the command</p></li>
+
 ```
 npm install linkius -g
 ```
 <li><p>After installation to use the library run in the command line:</p></li>
+
 ```
 linkius filename.md
 ```
-```
-var adicionar2 = function(numero) {
- return numero + 2;
-}
-```
+
 
 </ol>
 
