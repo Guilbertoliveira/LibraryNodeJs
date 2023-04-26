@@ -23,16 +23,15 @@
 <h2> How to install my library </h2>
 <ol>
 <li><p>To install the library you need to have Node.js installed</p></li>
-<li><p>After initializing your project along with node.js, run the command</p>
+<li><p>After initializing your project along with node.js, run the command</p></li>
 ```
 npm install linkius -g
 ```
-</li>
-<li><p>After installation to use the library run in the command line:</p>
+<li><p>After installation to use the library run in the command line:</p></li>
 ```
 linkius filename.md
 ```
-</li>
+
 
 </ol>
 
