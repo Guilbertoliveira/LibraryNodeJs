@@ -33,6 +33,8 @@
 <li><p>To install the library you need to have Node.js installed</p></li>
 <li><p>After initializing your project along with node.js, run the command</p></li>
 
+
+
 ```
 npm install linkius -g
 ```
@@ -44,4 +46,8 @@ linkius filename.md
 
 
 </ol>
+
+
+<h2>Project in NPM</h2>
+<p>Here is a link to the library in <a href="https://www.npmjs.com/package/linkius">npm</a></p>
 
