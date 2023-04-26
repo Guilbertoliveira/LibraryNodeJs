@@ -1,8 +1,8 @@
 {
-  "name": "2708-node-lib-md",
+  "name": "linkius",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Show on screen links of .md files",
+  "main": "./cli.js",
   "type":"module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,14 +12,16 @@
     "type": "git",
     "url": "git+https://github.com/alura-cursos/2708-node-lib-md.git"
   },
-  "keywords": [],
+  "keywords": ["markdown", "links"],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/alura-cursos/2708-node-lib-md/issues"
-  },
-  "homepage": "https://github.com/alura-cursos/2708-node-lib-md#readme",
+  "bugs": "https://github.com/Guilbertoliveira",
+  "homepage": "https://github.com/Guilbertoliveira/LibraryNodeJs",
   "dependencies": {
     "chalk": "5.2.0"
-  }
+  },
+  "bin": {
+    "linkius": "./cli.js"
+  },
+  "preferGlobal": true
 }
