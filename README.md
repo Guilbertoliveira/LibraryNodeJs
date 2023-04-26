@@ -14,7 +14,7 @@
 </div>   
 <h2> Dependencies used </h2>
 <ol>
-    <li><a href="https://www.npmjs.com/package/chalk">chalk</a></li>
+    <li><a href="https://www.npmjs.com/package/chalk">Chalk</a></li>
 </ol>
 
 <h2> Library native Node.Js </h2>
