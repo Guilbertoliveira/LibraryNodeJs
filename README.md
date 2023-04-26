@@ -1,5 +1,12 @@
 <div align="center">
-<h1>LibraryNodeJs</h1></div>
+<h1>LibraryNodeJs</h1>
+<img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/Guilbertoliveira/LibraryNodeJs" />
+<img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/Guilbertoliveira/LibraryNodeJs" />
+<img alt="GitHub Package.json Version" src="https://img.shields.io/github/package-json/v/Guilbertoliveira/LibraryNodeJs" />
+<img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/Guilbertoliveira/LibraryNodeJs" />
+<img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/Guilbertoliveira/LibraryNodeJs" />
+<img alt="Github License" src="https://img.shields.io/github/license/Guilbertoliveira/LibraryNodeJs" />
+</div>
 
 <h2>:hammer:Project Status:hammer:</h2>
 <p>Finished library</p>
